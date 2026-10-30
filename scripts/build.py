@@ -42,8 +42,8 @@ def decrypt(pw, box: dict) -> bytes:
 
 def password():
     pw = os.environ.get('II_PASSWORD') or getpass.getpass('Contraseña del equipo: ')
-    if len(pw) < 10:
-        sys.exit('Usa una contraseña de al menos 10 caracteres.')
+    if len(pw) < 8:
+        sys.exit('Usa una contraseña de al menos 8 caracteres.')
     return pw
 
 

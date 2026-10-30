@@ -1,0 +1,9 @@
+# Nunca subir datos en claro
+*.xlsx
+*.xls
+*.csv
+config/clasificacion.json
+datos/
+data/
+__pycache__/
+.DS_Store
